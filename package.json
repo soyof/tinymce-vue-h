@@ -1,16 +1,29 @@
 {
   "name": "tinymce-vue-h",
-  "version": "0.0.1",
-  "description": "基于vue-cli3对tinymce富文本编辑器的二次封装",
+  "version": "0.1.3",
+  "description": "基于vue-cli3对tinymce富文本编辑器的二次封装,实现双向绑定等",
   "private": false,
-  "author": "osorso@163.com",
+  "author": "Mr.H",
   "license": "MIT",
   "main": "lib/tinymce-vue-h.umd.min.js",
-  "keywords": "vue tinymce tinymce-vue tinymce-vue-h",
+  "keywords": [
+    "tinymce-vue-h",
+    "vue",
+    "tinymce"
+  ],
   "files": [
     "dist/*",
     "src/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MrH-OS/tinymce-vue-h.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MrH-OS/tinymce-vue-h",
+    "email": "osorso@163.com"
+  },
+  "homepage": "https://github.com/MrH-OS/tinymce-vue-h",
   "directories": {
     "dist": "dist"
   },
@@ -22,7 +35,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "tinymce": "^5.4.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -33,8 +47,6 @@
     "eslint": "^6.7.2",
     "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-vue": "^6.2.2",
-    "prettier": "^1.19.1",
-    "tinymce": "^5.4.1",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

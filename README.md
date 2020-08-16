@@ -1,6 +1,7 @@
 # tinymce-vue-h
 
 [github地址](https://github.com/MrH-OS/tinymce-vue-h)
+
 [demo github地址](https://github.com/MrH-OS/plugins_vue)
 
 
@@ -30,9 +31,11 @@ import TinymceVueH from 'tinymce-vue-h'
 
 [Tinymce github地址](https://github.com/tinymce/tinymce)
 
-tinymce版本为5.30+
+> tinymce版本为5.30+
 
-## tinymce-vue-h相关配置说明请参数[demo github地址](https://github.com/MrH-OS/plugins_vue)
+## tinymce-vue-h相关配置说明请参考[github地址](https://github.com/MrH-OS/plugins_vue)
+
+
 
 ## toolbar相关补充
 
