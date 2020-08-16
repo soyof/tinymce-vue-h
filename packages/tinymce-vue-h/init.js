@@ -19,7 +19,6 @@ export const defaultInit = (_this) => {
     language: 'zh_CN',
     skin_url: '/tinymce/skins/ui/oxide',
     content_css: `/tinymce/skins/content/default`,
-    content_style: 'body, p{font-size: 12px}',
     fontsize_formats: tinymceFontSize,
     font_formats: tinymceFont,
     plugins: plugins,

@@ -24,7 +24,7 @@ export default {
     },
     init: {
       type: Object,
-      required: false,
+      required: true,
       default() {
         return {}
       }

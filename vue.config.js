@@ -4,7 +4,7 @@ module.exports = {
     index: {
       entry: 'examples/main.js',
       template: 'public/index.html',
-      filename: 'index.html'
+      filename: 'tinymce-vue-h.min.js'
     }
   },
   chainWebpack: config => {

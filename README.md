@@ -14,10 +14,31 @@ npm install tinymce-vue-h -S
 
 ```javascript
 import TinymceVueH from 'tinymce-vue-h'
+// 将node_modules/tinymce/skins文件夹和node_modules/tinymce/themes文件夹拷贝放至public/tinymce文件夹下,如需中文包,下载后放至public/tinymce/langs目录下, 然后按如下配置即可
 ```
 
 ```html
-<tinymce-vue-h :init="{可选参数, 不配置时使用默认配置,具体配置如下图}" v-model="value"></tinymce-vue-h>
+<tinymce-vue-h :init="{tinymceInit}" v-model="value"></tinymce-vue-h>
+```
+
+```javascript
+// 将node_modules/tinymce/skins文件夹和node_modules/tinymce/themes文件夹拷贝放至public/tinymce文件夹下,如需中文包,下载后放至public/tinymce/langs目录下, 然后按如下配置即可
+tinymceInit = {
+  theme: 'silver', // 必须参数, 否则富文本编辑器无法显示
+  skin_url: '/tinymce/skins/ui/oxide', // 必须参数, 否则富文本编辑器无法显示
+  language_url: '/tinymce/langs/zh_CN.js', // 如需中文,则引入
+  language: 'zh_CN', // 如需中文,则引入
+  content_css: `/tinymce/skins/content/default` // 必须参数
+}
+以上参数为必须参数
+```
+
+[中文及主题包相关存放目录参考](https://github.com/MrH-OS/tinymce-vue-h/tree/master/public)
+[中文包](https://github.com/MrH-OS/tinymce-vue-h/blob/master/public/tinymce/langs/zh_CN.js)
+
+
+```txt
+在`public`目录下新建文件夹tinymce\langs\zh_CN.js, 引入中文翻译
 ```
 
 ## 默认配置如下图
