@@ -1,11 +1,11 @@
 {
   "name": "tinymce-vue-h",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "基于vue-cli3对tinymce富文本编辑器的二次封装,实现双向绑定等",
   "private": false,
   "author": "Mr.H",
   "license": "MIT",
-  "main": "dist/tinymce-vue-h.min.js",
+  "main": "dist/tinymce-vue-h.umd.min.js",
   "keywords": [
     "tinymce-vue-h",
     "vue",
