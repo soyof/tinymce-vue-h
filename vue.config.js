@@ -24,6 +24,7 @@ module.exports = {
       })
   },
   configureWebpack: config => {
+    // config.externals = [{ 'tinymce': 'tinymce' }]
     config.optimization = {
       splitChunks: {
         cacheGroups: {
