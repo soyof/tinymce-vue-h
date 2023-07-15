@@ -7,6 +7,7 @@
 
 
 ## tinymce-vue-h使用
+> 基于tinymce封装的vue2.x富文本编辑器
 
 ```shell
 npm install tinymce-vue-h -S
@@ -52,9 +53,11 @@ tinymceInit = {
 
 [Tinymce github地址](https://github.com/tinymce/tinymce)
 
-> tinymce版本为5.30+
+> tinymce版本为5+
 
-## tinymce-vue-h相关配置说明请参考[github地址](https://github.com/MrH-OS/plugins_vue)
+## tinymce-vue-h相关配置说明请参考
+
+## [github地址](https://github.com/MrH-OS/plugins_vue)
 
 
 

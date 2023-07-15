@@ -1,6 +1,6 @@
 {
   "name": "tinymce-vue-h",
-  "version": "5.10.6",
+  "version": "5.10.7",
   "description": "基于vue-cli3对tinymce富文本编辑器的二次封装,实现双向绑定等",
   "private": false,
   "author": "Mr.H",
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "tinymce": "^5.10.6",
+    "tinymce": "^5.10.7",
     "vue": "^2.6.11"
   },
   "devDependencies": {
