@@ -8,7 +8,7 @@
 ## 示例
 [请点击](https://soyof.github.io/soyof/pages/865b99/#%E7%A4%BA%E4%BE%8B)
 
-## tinymce-vue-h基本用法
+## 基本用法
 
 
 ```shell
@@ -50,7 +50,7 @@ tinymceInit = {
 }
 ```
 
-## tinymce-vue-h 配置参数（tinymceInit）
+## 配置参数
 
 > 详细配置请参考tinymce官方文档
 
@@ -107,7 +107,7 @@ tinymceInit = {
   > ```
 
 
-## toolbar 补充说明
+## 补充说明
 
 |     toolbar配置      |       功能        |                           所需插件                           |
 | :------------------: | :---------------: | :----------------------------------------------------------: |
@@ -175,7 +175,7 @@ tinymceInit = {
 |     visualchars      |  显示不可见字符   |                         visualchars                          |
 |         help         |       帮助        |                         无需引入插件                         |
 
-## tinymce插件
+## 插件
 
 > 来源于[Tinymce中文文档](http://tinymce.ax-z.cn/)
 
@@ -223,8 +223,9 @@ tinymceInit = {
 | [visualchars](http://tinymce.ax-z.cn/plugins/visualchars.php) |  显示不可见字符  | [官方地址](https://www.tiny.cloud/docs/plugins/visualchars/) |
 |  [wordcount](http://tinymce.ax-z.cn/plugins/wordcount.php)   |     字数统计     |  [官方地址](https://www.tiny.cloud/docs/plugins/wordcount/)  |
 
-### 参考
+## 参考
 
 [Tinymce中文文档](http://tinymce.ax-z.cn/)
 [Tinymce官方文档](https://www.tiny.cloud/docs/)
 [Tinymce github地址](https://github.com/tinymce/tinymce)
+
